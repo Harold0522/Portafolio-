@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Harold Sánchez Puerta</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body { 
+            font-family: 'Poppins', sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background: white; 
+            color: #333;
+        }
+        .container { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
+            padding: 20px;
+        }
+        .card { 
+            background: rgba(255, 255, 255, 0.9); 
+            padding: 20px; 
+            border-radius: 10px; 
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+            display: flex; 
+            max-width: 900px; 
+            width: 90%; 
+            color: #333;
+        }
+        .left, .right { padding: 20px; }
+        .left { 
+            flex: 1; 
+            text-align: center; 
+            border-right: 2px solid #ddd; 
+        }
+        .left img { 
+            width: 150px; 
+            height: 200px;
+            border-radius: 0;
+            border: 3px solid #0077B5;
+            object-fit: cover;
+        }
+        .left h1 { margin: 10px 0; font-size: 26px; font-weight: bold; color: #0077B5; }
+        .left button, .right button { 
+            padding: 10px 20px; 
+            font-size: 16px; 
+            background-color: #0077B5; 
+            color: white; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            margin: 5px; 
+        }
+        .left button:hover, .right button:hover {
+            background-color: #005a8c;
+        }
+        .social-icons a { 
+            margin: 0 5px; 
+            font-size: 20px; 
+            color: black; 
+            text-decoration: none; 
+        }
+        .right { flex: 2; text-align: left; }
+        .right h2 { 
+            border-bottom: 2px solid #0077B5; 
+            padding-bottom: 5px; 
+            color: #0077B5;
+            font-size: 22px;
+        }
+        .right ul { list-style: none; padding: 0; }
+        .right ul li { margin: 5px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="left">
+                <img src="profile.jpg" alt="Foto de perfil">
+                <h1>Harold Sánchez Puerta</h1>
+                <p>Estudiante de la Unicatólica</p>
+                <div class="social-icons">
+                    <a href="#">📷</a>
+                    <a href="#">🐦</a>
+                    <a href="#">🔗</a>
+                </div>
+            </div>
+            <div class="right">
+                <h2>Acerca de mí</h2>
+                <p>Soy Harold Sánchez Puerta, estudiante de la Unicatólica apasionado por el desarrollo de software y la ciberseguridad. Con experiencia en programación en Python y Java, combino mis habilidades técnicas con una personalidad enfocada y disciplinada. Además, disfruto del gimnasio, los autos y las motos de alto cilindraje, reflejando mi amor por los desafíos y la velocidad. Siempre estoy en busca de nuevas oportunidades para crecer tanto profesional como personalmente, destacándome por mi dedicación y entusiasmo en cada proyecto que emprendo.</p>
+                <h2>Intereses</h2>
+                <ul>
+                    <li>El gimnasio</li>
+                    <li>Los autos</li>
+                    <li>Las motos de alto cilindraje</li>
+                    <li>El desarrollo de software</li>
+                    <li>La ciberseguridad</li>
+                </ul>
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Desarrollo en Python</li>
+                    <li>Desarrollo en Java</li>
+                </ul>
+                <h2>LinkedIn</h2>
+                <a href="#" target="_blank">
+                    <button>Ver mi LinkedIn</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
